@@ -1,0 +1,24 @@
+{
+  "name": "grossman",
+  "version": "0.0.1",
+  "description": "an open source alternative to postman written in electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Im-Stivik/grossman.git"
+  },
+  "author": "Im-Stivik",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Im-Stivik/grossman/issues"
+  },
+  "homepage": "https://github.com/Im-Stivik/grossman#readme",
+  "dependencies": {
+    "electron": "^36.1.0",
+    "react": "^19.1.0"
+  }
+}
