@@ -1,3 +1,5 @@
+import MethodUrl from "../MethodUrl"
+
 function UpperTab() {
   return (
     <>
@@ -15,7 +17,9 @@ function UpperTab() {
         </div>
       </div>
       <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around' }}>
-        <input style={{ width: '86%', height: '40px' }} />
+        <div style={{ width: '86%' }} >
+          <MethodUrl />
+        </div>
         <button style={{ width: '10%' }} />
       </div>
       <div style={{ display: 'flex', flexDirection: 'row' }}>
